@@ -5,6 +5,24 @@ public class Link {
     private String nameOfLink;
     private String website;
     private boolean saveInBookmark;
+    private int id;
+    private String type;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
 
     public String getImage() {
         return image;
